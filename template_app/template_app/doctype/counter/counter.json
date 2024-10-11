@@ -5,20 +5,26 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_gqpw"
+  "section_break_gqpw",
+  "description"
  ],
  "fields": [
   {
    "fieldname": "section_break_gqpw",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Count",
    "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-11 05:49:22.327040",
+ "modified": "2024-10-11 07:28:33.467036",
  "modified_by": "Administrator",
  "module": "Template App",
  "name": "Counter",
